@@ -25,10 +25,10 @@ if (document.getElementById('navbar')) {
     const navbar = document.getElementById('navbar');
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY > 500) {
-            navbar.classList.add('bg-white/30', 'backdrop-blur-md', 'border', 'border-white/20', 'rounded-b-xl', 'shadow-lg');
+        if (window.scrollY > 100) {
+            navbar.classList.add('bg-white/30', 'backdrop-blur-md', 'border', 'border-white/20', 'shadow-lg');
         } else {
-            navbar.classList.remove('bg-white/30', 'backdrop-blur-md', 'border', 'border-white/20', 'rounded-b-xl', 'shadow-lg');
+            navbar.classList.remove('bg-white/30', 'backdrop-blur-md', 'border', 'border-white/20', 'shadow-lg');
         }
     });
 }

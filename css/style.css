@@ -60,6 +60,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: var(--font-space-grotesk);
+    overflow-x: hidden;
 }
 
 .bg-primary {
