@@ -1,0 +1,83 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Russo+One&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    /* colors */
+    --primary: #6C63FF;       /* Soft violet-blue */
+    --secondary: #F472B6;     /* Light pink */
+    --dark: #1F2937;          /* Gray-800 */
+
+    /* fonts */
+    --font-manrope: "Manrope", sans-serif;
+    --font-russo-one: "Russo One", sans-serif;
+    --font-space-grotesk: "Space Grotesk", sans-serif;
+}
+
+/* Fonts */
+.font-manrope {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.font-russo-one {
+    font-family: "Russo One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.font-space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Swiper buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: black !important;
+  width: 28px !important;
+  height: 28px !important;
+  padding: 10px !important;
+  background-color: rgba(128, 128, 128, 0.336) !important;
+  border-radius: 3px !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;
+  display: none !important;
+  font-weight: 700;
+}
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  display: block !important;
+}
+  
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-space-grotesk);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.text-primary {
+    color: var(--primary);
+}
+.text-secondary {
+    color: var(--secondary);
+}
+.text-dark {
+    color: var(--dark);
+}
